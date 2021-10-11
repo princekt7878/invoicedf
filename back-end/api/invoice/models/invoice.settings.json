@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "invoices",
+  "info": {
+    "name": "invoice"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "number": {
+      "unique": true,
+      "default": 0,
+      "type": "integer"
+    }
+  }
+}

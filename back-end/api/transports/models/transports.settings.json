@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "transports",
+  "info": {
+    "name": "Transports"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "mobile": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "vehicle_no": {
+      "type": "string"
+    },
+    "transport_id": {
+      "type": "string"
+    }
+  }
+}
