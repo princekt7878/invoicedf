@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Menu } from 'antd';
 import DropdownAction from '~/components/elements/basic/DropdownAction';
 
-const TableOrdersItems = () => {
+const TableSalesInvoice = () => {
     const orderItems = [
         {
             invoice_no: '#A580',
@@ -120,4 +120,4 @@ const TableOrdersItems = () => {
     );
 };
 
-export default TableOrdersItems;
+export default TableSalesInvoice;

@@ -24,15 +24,15 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/sales-invoice/create": [
+    "/sales-invoice": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/sales-invoice/create.js"
+      "static/chunks/pages/sales-invoice.js"
     ],
-    "/transport/create-transport": [
+    "/sales-invoice/create-sales": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/transport/create-transport.js"
+      "static/chunks/pages/sales-invoice/create-sales.js"
     ]
   },
   "ampFirstPages": []

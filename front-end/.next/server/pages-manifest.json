@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/sales-invoice/create": "pages/sales-invoice/create.js",
-  "/transport/create-transport": "pages/transport/create-transport.js"
+  "/sales-invoice": "pages/sales-invoice.js",
+  "/sales-invoice/create-sales": "pages/sales-invoice/create-sales.js"
 }

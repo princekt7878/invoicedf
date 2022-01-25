@@ -287,8 +287,8 @@ const CreateProductPage = () => {
     return (
         <ContainerDefault title="Create new product">
             <HeaderDashboard
-                title="Create Product"
-                description="InvoiceDF Create New Product "
+                title="Customers"
+                description="InvoiceDF add New Customers"
             />
             <section className="ps-new-item">
                 <form
@@ -314,7 +314,7 @@ const CreateProductPage = () => {
                                         </div>
                                         <div className="form-group">
                                             <label>
-                                                Contact Person Name<sup>*</sup>
+                                                Contact Person Name
                                             </label>
                                             <input
                                                 value={personName}

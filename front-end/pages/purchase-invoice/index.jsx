@@ -17,8 +17,8 @@ const OrdersPage = () => {
     return (
         <ContainerDefault>
             <HeaderDashboard
-                title="Orders"
-                description="Martfury Orders Listing"
+                title="Purchase invoice"
+                description="invoicedf purchase listing"
             />
             <section className="ps-items-listing">
                 <div className="ps-section__header simple">
@@ -56,7 +56,7 @@ const OrdersPage = () => {
                         </form>
                     </div>
                     <div className="ps-section__actions">
-                        <Link href="/products/create-product">
+                        <Link href="/purchase-invoice/create-purchase">
                             <a className="ps-btn success">
                                 <i className="icon icon-plus mr-2"></i>New Order
                             </a>

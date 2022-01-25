@@ -20,8 +20,8 @@ const OrdersPage = () => {
     return (
         <ContainerDefault>
             <HeaderDashboard
-                title="Orders   "
-                description="InvoiceDF Orders Listing"
+                title="Sales Invoice   "
+                description="InvoiceDF Sales Listing"
             />
             <section className="ps-items-listing">
                 <div className="ps-section__header simple">
@@ -59,7 +59,7 @@ const OrdersPage = () => {
                         </form>
                     </div>
                     <div className="ps-section__actions">
-                        <Link href="/products/create-product">
+                        <Link href="/sales-invoice/create-sales">
                             <a className="ps-btn success">
                                 <i className="icon icon-plus mr-2"></i>New Order
                             </a>
